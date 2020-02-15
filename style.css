@@ -14,6 +14,7 @@ body{
 .container{
     display: grid;
     grid-gap: 20px;
+    position: relative;
 }
 #inicio{
     height: 100vh;
@@ -52,21 +53,17 @@ body{
 }
 
 #retangulo{
-    height: 400px;
+    height: 40vh;
     width: 80vw;
     border: 10px solid var(--primary);
-    position: absolute;
-    top: 30%;
-    left: 10%;
+    margin: auto;
 }
 
 #retangulo h1{
     font-size: 100px;
     width: 50vw;
     text-transform: uppercase;
-    position: relative;
-    top: 10%;
-    left: 25%;
+    margin: auto;
     font-family: 'Roboto';
 }
 
@@ -220,6 +217,7 @@ footer{
     #apresentacao #foto{
         width: 100vw;
         height: 50vh;
+        z-index: 1;
     }
 
     #apresentacao #foto #imagem{
@@ -230,6 +228,11 @@ footer{
 
     #apresentacao #foto #redes-sociais{
         margin-left: 140px;
+    }
+
+    #apresentacao #info{
+        background-color: brown;
+        height: 50vh;
     }
 }
 
