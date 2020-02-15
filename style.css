@@ -191,6 +191,7 @@ footer{
 
 /*Responsividade*/
 
+/*IPad Pro*/
 @media (max-width: 1024px){
     #inicio #menu ul{
         grid-template-columns: 1fr;
@@ -213,13 +214,29 @@ footer{
     }
 }
 
+/*IPad*/
 @media (max-width: 768px){
     #inicio #menu ul a{
         font-size: 26px;
         padding: .8rem;
     }
 
+    #retangulo{
+        left: 10%;
+    }
+
     #retangulo h1{
+        top: 20%;
+        left: 13%;
         font-size: 65px;
+    }
+}
+
+/*Iphone plus*/
+
+@media (max-width: 414px){
+    #inicio{
+        width: 100vw;
+        background-color: brown;
     }
 }
