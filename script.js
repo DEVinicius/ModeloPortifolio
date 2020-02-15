@@ -11,7 +11,7 @@ function scrollAnimation(){
             element.classList.add(ScrollClass);
         }
         else{
-            element.classList.removeS(ScrollClass);
+            element.classList.remove(ScrollClass);
         }
     });
 }

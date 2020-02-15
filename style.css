@@ -13,6 +13,7 @@ body{
 
 .container{
     display: grid;
+    grid-gap: 20px;
 }
 #inicio{
     height: 100vh;
@@ -37,7 +38,6 @@ body{
 #inicio #menu ul a{
     padding: .8rem;
     text-transform: uppercase;
-    padding: .8rem;
     display: block;
     text-align: center;
     color: var(--fundo);
@@ -187,4 +187,39 @@ footer{
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0,0,0);
+}
+
+/*Responsividade*/
+
+@media (max-width: 1024px){
+    #inicio #menu ul{
+        grid-template-columns: 1fr;
+        width: 100vw;
+    }
+
+    #inicio #menu ul a{
+        font-size: 30px;
+        padding: 1.3rem;
+    }
+
+    #retangulo{
+        top: 40%;
+    }
+
+    #retangulo h1{
+        font-size: 80px;
+        left: 15%;
+        top: 15%;
+    }
+}
+
+@media (max-width: 768px){
+    #inicio #menu ul a{
+        font-size: 26px;
+        padding: .8rem;
+    }
+
+    #retangulo h1{
+        font-size: 65px;
+    }
 }
