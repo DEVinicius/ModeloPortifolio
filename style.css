@@ -56,13 +56,18 @@ body{
     height: 40vh;
     width: 80vw;
     border: 10px solid var(--primary);
+    position: relative;
+    top: 25%;
     margin: auto;
 }
 
 #retangulo h1{
     font-size: 100px;
-    width: 50vw;
+    width: 80vw;
+    text-align: center;
     text-transform: uppercase;
+    position: absolute;
+    top: 25%;
     margin: auto;
     font-family: 'Roboto';
 }
@@ -201,13 +206,24 @@ footer{
     }
 
     #retangulo{
-        top: 40%;
+        border: none
+    }
+
+    @keyframes retangulo{
+        from{
+            transform: translate3d(-100%,0,0);
+        }
+
+        to{
+            transform: translate3d(0,0,0);
+        }
     }
 
     #retangulo h1{
-        font-size: 80px;
-        left: 15%;
-        top: 15%;
+        margin: auto auto;
+        animation-name: retangulo;
+        animation-duration: 2s;
+        font-size: 100px;
     }
 
     #apresentacao{
@@ -243,13 +259,7 @@ footer{
         padding: .8rem;
     }
 
-    #retangulo{
-        left: 10%;
-    }
-
     #retangulo h1{
-        top: 20%;
-        left: 13%;
         font-size: 65px;
     }
 }
@@ -266,34 +276,16 @@ footer{
         width: 100vw;
     }
 
-    #retangulo{
-        height: 40vh;
-        left: 9%;
-    }
-
     #retangulo h1{
         font-size: 30px;
-        top: 30%;
-        left: 15%;
     }
 }
 
 @media (max-width: 360px){
-    #retangulo{
-        top: 45%;
-    }
 
-    #retangulo h1{
-        left: 12%;
-    }
 }
 
 @media (max-width: 320px){
-    #retangulo{
-        top: 50%;
-        left: 8%;
-    }
-
     #retangulo h1{
         font-size: 25px;
     }
