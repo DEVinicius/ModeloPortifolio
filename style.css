@@ -235,8 +235,23 @@ footer{
 /*Iphone plus*/
 
 @media (max-width: 414px){
+    #inicio #menu ul a{
+        font-size: 20px;
+        padding: .6rem;
+    }
+
     #inicio{
         width: 100vw;
-        background-color: brown;
+    }
+
+    #retangulo{
+        height: 40vh;
+        left: 9%;
+    }
+
+    #retangulo h1{
+        font-size: 30px;
+        top: 30%;
+        left: 15%;
     }
 }
