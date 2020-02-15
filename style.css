@@ -176,10 +176,15 @@ footer{
 
 [data-anime = "left"]{
     transform: translate3d(-50px, 0, 0 );
-    transition: .3s;
+    transition: .8s;
 }
 
-[data-anime] .animate{
+[data-anime = "right"]{
+    transition: .8s;
+    transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate{
     opacity: 1;
     transform: translate3d(0,0,0);
 }
