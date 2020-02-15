@@ -227,6 +227,10 @@ footer{
         width: 400px;
         left: 30%;
     }
+
+    #apresentacao #foto #redes-sociais{
+        margin-left: 140px;
+    }
 }
 
 /*IPad*/
