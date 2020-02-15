@@ -168,3 +168,18 @@ footer{
     color: var(--fundo);
     background-color: var(--primary);
 }
+
+/*animação CSS*/
+[data-anime]{
+    opacity: 0;
+}
+
+[data-anime = "left"]{
+    transform: translate3d(-50px, 0, 0 );
+    transition: .3s;
+}
+
+[data-anime] .animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
