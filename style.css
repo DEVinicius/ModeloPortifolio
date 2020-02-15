@@ -3,6 +3,20 @@
     --fundo: #0D0C06;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: var(--fundo);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -90,20 +104,18 @@ body{
 
 #apresentacao #foto #imagem{
     grid-area: foto;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     background-color: black;
     border-radius: 100%;
-    position: relative;
-    top: 5%;
-    left: 15%;
+    margin: auto;
 }
 
 #apresentacao #foto #redes-sociais{
     grid-area: redes-sociais;
     display: grid;
-    margin-left: 80px;
-    padding: .8rem;
+    margin: auto;
+    padding: 1.2rem;
     grid-gap: 20px;
     grid-template-areas: "fb in ln";
 }
