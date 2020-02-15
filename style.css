@@ -207,9 +207,10 @@ footer{
 
 /*IPad Pro*/
 @media (max-width: 1024px){
+
     #inicio #menu ul{
         grid-template-columns: 1fr;
-        width: 100vw;
+        width: 99.9vw;
     }
 
     #inicio #menu ul a{
@@ -243,24 +244,28 @@ footer{
     }
 
     #apresentacao #foto{
-        width: 100vw;
+        width: 99.9vw;
         height: 50vh;
-        z-index: 1;
     }
 
     #apresentacao #foto #imagem{
         height: 400px;
         width: 400px;
-        left: 30%;
-    }
-
-    #apresentacao #foto #redes-sociais{
-        margin-left: 140px;
     }
 
     #apresentacao #info{
-        background-color: brown;
         height: 50vh;
+        width: 99.9vw;
+    }
+
+    #apresentacao #info h1{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    #apresentacao #info #text{
+        font-size: 40px;
+        text-align: justify;
     }
 }
 
