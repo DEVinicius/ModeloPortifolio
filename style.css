@@ -212,6 +212,21 @@ footer{
         left: 15%;
         top: 15%;
     }
+
+    #apresentacao{
+        grid-template-areas: "foto" "info";
+    }
+
+    #apresentacao #foto{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    #apresentacao #foto #imagem{
+        height: 400px;
+        width: 400px;
+        left: 30%;
+    }
 }
 
 /*IPad*/
