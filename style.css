@@ -1,0 +1,170 @@
+:root{
+    --primary: #ffd700;
+    --fundo: #0D0C06;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--fundo);
+    color: var(--primary);
+}
+
+.container{
+    display: grid;
+}
+#inicio{
+    height: 100vh;
+}
+
+#inicio #menu{
+    display: grid;
+    grid-gap: 20px;
+}
+
+#inicio #menu ul{
+    list-style-type: none;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 20px;
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#inicio #menu ul a{
+    padding: .8rem;
+    text-transform: uppercase;
+    padding: .8rem;
+    display: block;
+    text-align: center;
+    color: var(--fundo);
+    background-color: var(--primary);
+    text-decoration: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#inicio #menu ul a:hover{
+    background-color: var(--fundo);
+    color: var(--primary);
+}
+
+#retangulo{
+    height: 400px;
+    width: 80vw;
+    border: 10px solid var(--primary);
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+#retangulo h1{
+    font-size: 100px;
+    width: 50vw;
+    text-transform: uppercase;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    font-family: 'Roboto';
+}
+
+#apresentacao{
+    height: 100vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "foto info";
+}
+
+#apresentacao #foto{
+    grid-area: foto;
+    display: grid;
+    height: 100vh;
+    width: 50vw;
+    background-color: var(--primary);
+    grid-template-areas: "foto" "redes-sociais";
+}
+
+#apresentacao #foto #imagem{
+    grid-area: foto;
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 5%;
+    left: 15%;
+}
+
+#apresentacao #foto #redes-sociais{
+    grid-area: redes-sociais;
+    display: grid;
+    margin-left: 80px;
+    padding: .8rem;
+    grid-gap: 20px;
+    grid-template-areas: "fb in ln";
+}
+
+#apresentacao #foto #facebook{
+    grid-area: fb;
+}
+
+#apresentacao #foto #instagram{
+    grid-area: in;
+}
+
+#apresentacao #foto #ln{
+    grid-area: ln;
+}
+
+#apresentacao #info{
+    grid-area: info;
+    display: grid;
+}
+
+#apresentacao #info #text{
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    font-family: "Roboto";
+    height: 300px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#o-que-faco{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "imagem dados";
+}
+
+#o-que-faco #imagem{
+    grid-area: imagem;
+    height: 100vh;
+    width: 50vw;
+}
+
+#o-que-faco #data{
+    grid-area: dados;
+    background-color: var(--primary);
+    width: 49vw;
+    color: var(--fundo);
+}
+
+#o-que-faco #data h1{
+    font-size: 50px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+#o-que-faco #data p{
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+footer{
+    color: var(--fundo);
+    background-color: var(--primary);
+}
