@@ -255,3 +255,24 @@ footer{
         left: 15%;
     }
 }
+
+@media (max-width: 360px){
+    #retangulo{
+        top: 45%;
+    }
+
+    #retangulo h1{
+        left: 12%;
+    }
+}
+
+@media (max-width: 320px){
+    #retangulo{
+        top: 50%;
+        left: 8%;
+    }
+
+    #retangulo h1{
+        font-size: 25px;
+    }
+}
