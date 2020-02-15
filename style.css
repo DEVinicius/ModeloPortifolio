@@ -139,8 +139,6 @@ body{
 
 #apresentacao #info #text{
     font-size: 30px;
-    position: relative;
-    top: 30%;
     font-family: "Roboto";
     height: 300px;
     text-align: justify;
