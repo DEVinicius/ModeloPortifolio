@@ -208,7 +208,7 @@ footer{
 
     #inicio #menu ul{
         grid-template-columns: 1fr;
-        width: 99.9vw;
+        width: 99.99vw;
     }
 
     #inicio #menu ul a{
@@ -242,7 +242,7 @@ footer{
     }
 
     #apresentacao #foto{
-        width: 99.9vw;
+        width: 99.99vw;
         height: 50vh;
     }
 
@@ -253,7 +253,7 @@ footer{
 
     #apresentacao #info{
         height: 50vh;
-        width: 99.9vw;
+        width: 99.99vw;
     }
 
     #apresentacao #info h1{
@@ -272,6 +272,14 @@ footer{
     #inicio #menu ul a{
         font-size: 26px;
         padding: .8rem;
+    }
+
+    #apresentacao #foto{
+        height: 60vh;
+    }
+    
+    #apresentacao #info #text{ 
+        font-size: 30px;
     }
 
     #retangulo h1{
@@ -293,6 +301,58 @@ footer{
 
     #retangulo h1{
         font-size: 30px;
+    }
+    #apresentacao #foto #imagem{
+        height: 300px;
+        width: 300px;
+    }
+
+    #apresentacao #foto #redes-sociais #ln,
+    #apresentacao #foto #redes-sociais #instagram,
+    #apresentacao #foto #redes-sociais #facebook{
+        height: 100px;
+        width: 100px;
+    }
+
+    #apresentacao #info h1{
+        font-size: 30px;
+    }
+
+    #apresentacao #info #text{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 411px){
+    #apresentacao #foto #imagem{
+        height: 250px;
+        width: 250px;
+    }
+
+    #apresentacao #foto #redes-sociais #ln,
+    #apresentacao #foto #redes-sociais #instagram,
+    #apresentacao #foto #redes-sociais #facebook{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 375px){
+    #apresentacao #foto #imagem{
+        height: 300px;
+        width: 300px;
+    }
+
+    #apresentacao #foto #imagem{
+        height: 200px;
+        width: 200px;
+    }
+
+    #apresentacao #foto #redes-sociais #ln,
+    #apresentacao #foto #redes-sociais #instagram,
+    #apresentacao #foto #redes-sociais #facebook{
+        height: 75px;
+        width: 75px;
     }
 }
 
