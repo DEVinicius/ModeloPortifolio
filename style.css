@@ -262,8 +262,31 @@ footer{
     }
 
     #apresentacao #info #text{
-        font-size: 40px;
+        font-size: 35px;
         text-align: justify;
+    }
+
+    #o-que-faco{
+        grid-template-areas: "dados" "imagem";
+    }
+
+    #o-que-faco #imagem{
+        height: 50vh;
+        width: 99.99vw;
+    }
+
+    #o-que-faco #data{
+        height: 50vh;
+        width: 99.99vw;
+    }
+
+    #o-que-faco #data p{
+        font-size: 35px;
+    }
+
+    [data-anime = "right"]{
+        transition: .8s;
+        transform: translate3d(-50px, 0, 0);
     }
 }
 
@@ -275,15 +298,31 @@ footer{
     }
 
     #apresentacao #foto{
-        height: 60vh;
+        height: 50vh;
+    }
+
+    #apresentacao #foto #imagem{
+        height: 300px;
+        width: 300px;
+    }
+    #apresentacao #info h1{
+        font-size: 30px;
     }
     
     #apresentacao #info #text{ 
-        font-size: 30px;
+        font-size: 28px;
     }
 
     #retangulo h1{
         font-size: 65px;
+    }
+
+    #o-que-faco #data h1{
+        font-size: 30px;
+    }
+
+    #o-que-faco #data p{
+        font-size: 29px;
     }
 }
 
@@ -303,30 +342,38 @@ footer{
         font-size: 30px;
     }
     #apresentacao #foto #imagem{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 
     #apresentacao #foto #redes-sociais #ln,
     #apresentacao #foto #redes-sociais #instagram,
     #apresentacao #foto #redes-sociais #facebook{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
     }
 
     #apresentacao #info h1{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     #apresentacao #info #text{
-        font-size: 22px;
+        font-size: 17px;
+    }
+
+    #o-que-faco #data h1{
+        font-size: 28px;
+    }
+
+    #o-que-faco #data p{
+        font-size: 17px;
     }
 }
 
 @media (max-width: 411px){
     #apresentacao #foto #imagem{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
     }
 
     #apresentacao #foto #redes-sociais #ln,
@@ -354,14 +401,87 @@ footer{
         height: 75px;
         width: 75px;
     }
+
+    #apresentacao #info h1{
+        font-size: 26px;
+    }
+
+    #apresentacao #info #text{
+        font-size: 15px;
+    }
+
+    #o-que-faco #data h1{
+        font-size: 26px;
+    }
+
+    #o-que-faco #data p{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 360px){
+    #inicio #menu ul a{
+        font-size: 16px;
+        padding: .6rem;
+    }
 
+
+    #apresentacao #foto #imagem{
+        height: 150px;
+        width: 150px;
+    }
+
+    #apresentacao #foto #redes-sociais #ln,
+    #apresentacao #foto #redes-sociais #instagram,
+    #apresentacao #foto #redes-sociais #facebook{
+        height: 60px;
+        width: 60px;
+    }
+
+    #apresentacao #info h1,#o-que-faco #data h1{
+        font-size: 26px;
+    }
+
+    #apresentacao #info #text,#o-que-faco #data p{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 320px){
+    #inicio #menu ul a{
+        font-size: 14px;
+        padding: .6rem;
+    }
+
     #retangulo h1{
         font-size: 25px;
+    }
+
+    #apresentacao #foto #imagem{
+        height: 150px;
+        width: 150px;
+    }
+
+    #apresentacao #foto #redes-sociais #ln,
+    #apresentacao #foto #redes-sociais #instagram,
+    #apresentacao #foto #redes-sociais #facebook{
+        height: 60px;
+        width: 60px;
+    }
+
+    #apresentacao #info h1{
+        font-size: 24px;
+    }
+
+    #apresentacao #info #text{
+        font-size: 13px;
+    }
+
+    #o-que-faco #data h1{
+        font-size: 24px;
+    }
+
+    #o-que-faco #data p{
+        font-size: 13px;
     }
 }
