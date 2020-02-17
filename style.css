@@ -138,7 +138,7 @@ body{
 }
 
 #apresentacao #info #text{
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Roboto";
     height: 300px;
     text-align: justify;
@@ -165,13 +165,13 @@ body{
 }
 
 #o-que-faco #data h1{
-    font-size: 50px;
+    font-size: 45px;
     font-family: "Roboto";
     text-align: center;
 }
 
 #o-que-faco #data p{
-    font-size: 30px;
+    font-size: 28px;
     text-align: justify;
     line-height: 1.5;
 }
