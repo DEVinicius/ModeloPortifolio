@@ -329,6 +329,20 @@ footer{
 /*Iphone plus*/
 
 @media (max-width: 414px){
+    ::-webkit-scrollbar{
+        width: .5px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        box-shadow: var(--fundo);
+        border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: var(--primary);
+        border-radius: 10px;
+    }
+
     #inicio #menu ul a{
         font-size: 20px;
         padding: .6rem;
